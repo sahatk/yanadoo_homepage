@@ -8,3 +8,8 @@ th,td,tr,textarea,button,form {margin:0; padding:0;}
 
 /* 목록 초기화 */
 ul,ol,li{list-style: none; display: inline;}
+
+
+/* a,button hover,focus */
+a:focus, button:focus {font-weight: 800;}
+a:hover, button:hover {font-weight: 800;}

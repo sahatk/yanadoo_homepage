@@ -1,5 +1,119 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'NotoSansCJKkr';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Light.woff2)
+      format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Light.woff)
+      format('woff'),
+    url(https://english.yanadoocdn.com/upload/yanadoo/fonts/NotoSansCJKkr-Light.otf)
+      format('opentype');
+  unicode-range: U+AC00-D7A3;
+}
+@font-face {
+  font-family: 'NotoSansCJKkr';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Regular.woff2)
+      format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Regular.woff)
+      format('woff'),
+    url(https://english.yanadoocdn.com/upload/yanadoo/fonts/NotoSansCJKkr-Regular.otf)
+      format('opentype');
+  unicode-range: U+AC00-D7A3;
+}
+@font-face {
+  font-family: 'NotoSansCJKkr';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Medium.woff2)
+      format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Medium.woff)
+      format('woff'),
+    url(https://english.yanadoocdn.com/upload/yanadoo/fonts/NotoSansCJKkr-Medium.otf)
+      format('opentype');
+  unicode-range: U+AC00-D7A3;
+}
+@font-face {
+  font-family: 'NotoSansCJKkr';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Bold.woff2)
+      format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Bold.woff) format('woff'),
+    url(https://english.yanadoocdn.com/upload/yanadoo/fonts/NotoSansCJKkr-Bold.otf)
+      format('opentype');
+  unicode-range: U+AC00-D7A3;
+}
+@font-face {
+  font-family: 'NotoSansCJKkr';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Black.woff2)
+      format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/notoSans/NotoSansCJKkr-Black.woff)
+      format('woff'),
+    url(https://english.yanadoocdn.com/upload/yanadoo/fonts/NotoSansCJKkr-Black.otf) format
+      ('opentype');
+  unicode-range: U+AC00-D7A3;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Light.woff2) format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Light.woff) format('woff'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Light.otf) format('opentype');
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Regular.woff2) format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Regular.woff) format('woff'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Regular.otf) format('opentype');
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Medium.woff2) format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Medium.woff) format('woff'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Medium.otf) format('opentype');
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Bold.woff2) format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Bold.woff) format('woff'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-Bold.otf) format('opentype');
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-ExtraBold.woff2) format('woff2'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-ExtraBold.woff) format('woff'),
+    url(https://english.yanadoocdn.com/upload/fonts/inter/Inter-ExtraBold.otf) format('opentype');
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: normal normal 10px/1.2 'Inter', 'NotoSansCJKkr', sans-serif;
+}
+
+
+
 /* IR 기법 참조 */
 
 .blind_area a,

@@ -18,9 +18,8 @@
 
 
 /* 컨테이너 */
-
 .header__container{display: flex; margin: 0 auto;  justify-content: space-between;
- width: 1200px; margin:0 auto; height: inherit; background-color: #eee; }
+ width: 1200px; margin:0 auto; height: inherit;}
 
 /* 컨테이너 */
 
@@ -28,12 +27,12 @@
 /*상단바*/
 .nav__group{display:flex; width: 1100px; margin:0 auto; height: 60px;  align-items: center; justify-content: flex-start;}
 .nav__global{display:flex; width : 100px; margin:0 auto; text-align: right; align-items: center; justify-content: flex-end;  }
-.items{ display:inline; margin-right: 50px;}
+.items { display:inline; margin-right: 50px; text-decoration: none; color:#111; font-size: 1.5rem;}
+.items :hover , .items :focus {font-weight:900; text-decoration: none;}
 .logo {
     display: block;
     width: 150px;
     height: 60px;
     background: url("../../image/navbar/logo.jpg") no-repeat  0/100%;
-    
 }
 /*상단바*/
