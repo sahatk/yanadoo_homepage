@@ -5,15 +5,15 @@
 /* 레이아웃 */
 #wrap{width: 100%;}
 #header{width: 100%; height: 100px; background-color: #fff;}
-#contents1{width: 100%; height: 900px; background-image: url("https://english.yanadoocdn.com/upload/yanadoo/new/banner/bigbnr_pc_pic01.png");}
-#contents2{width: 100%; height: 450px; background-color: red;}
-#contents3{width: 100%; height: 450px; background-color: orange;}
-#contents4{width: 100%; height: 450px; background-color: yellow;}
-#contents5{width: 100%; height: 450px; background-color: green;}
-#contents6{width: 100%; height: 450px; background-color: blue;}
-#contents7{width: 100%; height: 450px; background-color: violet;}
-#contents8{width: 100%; height: 450px; background-color: #fff;}
-#footer{width:100%; height: 220px; background-color: #333;}
+#contents1{width: 100%; height: 90rem; display: flex; align-items: center; justify-content:space-between;}
+#contents2{width: 100%; height: 70rem; display: flex; align-items: center; justify-content:center;}
+#contents3{width: 100%; height: 25rem; background-color: orange; position: absolute; top:87rem; z-index: 1; display: flex; align-items: center; justify-content:right;}
+#contents4{width: 100%; height: 30rem; background-color: #111;}
+#contents5{width: 100%; height: 60rem; background-color: green;}
+#contents6{width: 100%; height: 60rem; background-color: blue;}
+#contents7{width: 100%; height: 60rem; background-color: violet;}
+#contents8{width: 100%; height: 60rem; background-color: #fff;}
+#footer{width:100%; height: 22.2rem; background-color: #333;}
 /* 레이아웃 */
 
 
@@ -23,6 +23,7 @@
 /* 컨테이너 */
 
 
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*상단바*/
 
 /* 기본 상단바*/
@@ -31,14 +32,11 @@
 .nav__global{display:flex; width : 100px; margin:0 auto; text-align: right; align-items: center; justify-content: flex-end;  }
 .items { display:inline; margin-right: 50px; text-decoration: none; color:#111; font-size: 1.5rem;}
 .items :hover , .items :focus {font-weight:900; text-decoration: none;}
-/* 기본 상단바*/
 
 /* 오버시 목록 상단바*/
 .nav__group__2{display:flex; width: 805px; margin:0 auto; height:500px;  justify-content: flex-start;}
-/* 오버시 목록 상단바*/
 
-
-
+/* 야나두 로고 */
 .logo {
     display: block;
     width: 150px;
@@ -46,7 +44,7 @@
     background: url("../../image/navbar/logo.png") no-repeat  0/100%;
 }
 
-/**/
+/*상단바 로그인 버튼*/
 .btn__login {
     display: inline-block;
     width: 7.8rem;
@@ -59,4 +57,64 @@
 }
 
 
-/*상단바*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* 콘텐츠 부분*/
+
+/*왼쪽 주먹 올린 사진*/
+.bg1{
+    margin:0 auto;
+    position: absolute;
+    width: 100%; height: 900px; z-index: 1;
+    background-image: url("https://english.yanadoocdn.com/upload/yanadoo/new/banner/bigbnr_pc_pic01.png");
+    
+    
+}
+
+/* 야,너두 할수있어.*/
+.txt1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 550px; height: 505px; z-index: 100;
+    background-image: url("https://english.yanadoocdn.com/upload/yanadoo/new/banner/img_pc_title.png");
+    background-repeat: no-repeat;
+    background-size: 550px 500px;
+    left:50em;
+}
+
+/* 변화의 시작은 매우 쉽습니다. 올바른 선택 하나로 당신도 ...... */
+.txt2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top:10rem;
+}
+
+/* 150만 540만 60억 250만 */
+.txt3{
+    font-size: 24px; font-weight: 900;
+    margin : 0 10rem;
+    
+}
+
+.white__box{
+    width: 80%;
+    height: 15rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.white__box_sort{
+    width: 80%;
+    height: 10rem;
+    text-align: center;
+    background-color: blue;
+    align-items: center;
+    
+}
+
+
+/* 콘텐츠 부분*/
